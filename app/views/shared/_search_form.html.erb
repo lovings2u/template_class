@@ -1,0 +1,442 @@
+<!-- Breadcrumbs & Search -->
+<div class="g-bg-cover g-bg-pos-top-center g-bg-img-hero" style="background-image: url(assets/img/bg/map-sketch.jpg);">
+  <div class="g-pos-rel g-z-index-1">
+    <!-- Breadcrumbs -->
+    <div class="container-fluid g-py-50">
+      <ul class="u-list-inline g-font-weight-500 mb-2">
+        <li class="list-inline-item g-mr-5">
+          <a class="u-link-v5 g-color-gray-dark-v5 g-color-main--hover" href="#">Home</a>
+          <i class="g-color-gray-light-v2 g-ml-5 fa fa-angle-right"></i>
+        </li>
+        <li class="list-inline-item g-mr-5">
+          <a class="u-link-v5 g-color-gray-dark-v5 g-color-main--hover" href="#">Listing</a>
+          <i class="g-color-gray-light-v2 g-ml-5 fa fa-angle-right"></i>
+        </li>
+        <li class="list-inline-item g-color-primary">
+          <span>List View</span>
+        </li>
+      </ul>
+      <h1 class="h2 mb-0">List View - Apartments and Rooms</h1>
+    </div>
+    <!-- End Breadcrumbs -->
+
+    <div class="container-fluid g-pb-100">
+      <div class="g-bg-secondary g-pa-5">
+        <!-- Input Group -->
+        <form class="g-bg-white g-pa-30">
+          <div class="row g-mx-0--md">
+            <div class="col-md-6 col-lg-8 g-px-0--md g-mb-30">
+              <input class="form-control rounded-0 g-brd-gray-light-v3 g-px-20 g-py-15" type="text" placeholder="Search by City, Address, ZIP ...">
+            </div>
+
+            <!-- Input Group -->
+            <div class="col-sm-6 col-md-3 col-lg-2 g-px-0--md g-mb-30">
+              <select class="js-custom-select w-100 u-select-v1 g-min-width-150 g-brd-left-none--md g-brd-gray-light-v3 g-bg-white g-color-main g-color-primary--hover g-pt-12 g-pb-13" required
+                      data-placeholder="All Cities"
+                      data-open-icon="fa fa-angle-down"
+                      data-close-icon="fa fa-angle-up">
+                <option></option>
+                <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="NY">New York</option>
+                <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="VC">Vancouver</option>
+                <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="LN">London</option>
+                <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="BR">Berlin</option>
+                <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="ML">Milan</option>
+                <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="PR">Paris</option>
+                <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="MS">Moscow</option>
+              </select>
+            </div>
+            <!-- End Input Group -->
+
+            <!-- Input Group -->
+            <div class="col-sm-6 col-md-3 col-lg-2 g-px-0--md g-mb-30">
+              <select class="js-custom-select w-100 u-select-v1 g-min-width-150 g-brd-left-none--md g-brd-gray-light-v3 g-bg-white g-color-main g-color-primary--hover g-pt-12 g-pb-13" required
+                      data-placeholder="All Areas"
+                      data-open-icon="fa fa-angle-down"
+                      data-close-icon="fa fa-angle-up">
+                <option></option>
+                <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="NR">North</option>
+                <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="NTE">Northeast</option>
+                <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="NTW">Northwest</option>
+                <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="EA">East</option>
+                <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="SO">South</option>
+                <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="SOE">Southeast</option>
+                <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="SOW">Southwest</option>
+                <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="WE">West</option>
+              </select>
+            </div>
+            <!-- End Input Group -->
+          </div>
+
+          <div class="row">
+            <div class="col-6 col-lg-3 g-mb-30">
+              <!-- Input Group -->
+              <div class="input-group-btn">
+                <select class="js-custom-select u-select-v1 w-100 g-brd-gray-light-v3 g-bg-white g-color-main g-color-primary--hover g-py-12" required
+                        data-placeholder="All Status"
+                        data-open-icon="fa fa-angle-down"
+                        data-close-icon="fa fa-angle-up">
+                  <option></option>
+                  <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="FR">For Rent</option>
+                  <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="FS">For Sale</option>
+                  <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="FC">Foreclosure</option>
+                  <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="NC">New Construction</option>
+                  <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="NL">New Listing</option>
+                  <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="OH">Open House</option>
+                  <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="RP">Reduced Price</option>
+                  <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="RS">Resale</option>
+                </select>
+              </div>
+              <!-- End Input Group -->
+            </div>
+
+            <div class="col-6 col-lg-3 g-mb-30">
+              <!-- Input Group -->
+              <div class="input-group-btn">
+                <select class="js-custom-select u-select-v1 w-100 g-brd-gray-light-v3 g-bg-white g-color-main g-color-primary--hover g-py-12" required
+                        data-placeholder="All Types"
+                        data-open-icon="fa fa-angle-down"
+                        data-close-icon="fa fa-angle-up">
+                  <option></option>
+                  <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="AP">Apartment</option>
+                  <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="CO">Condo</option>
+                  <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="FA">Farm</option>
+                  <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="LO">Loft</option>
+                  <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="LO">Lot</option>
+                  <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="MU">Multi Family Home</option>
+                  <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="SI">Single Family Home</option>
+                  <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="TO">Townhouse</option>
+                  <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="VI">Villa</option>
+                </select>
+              </div>
+              <!-- End Input Group -->
+            </div>
+
+            <div class="col-6 col-lg-3 g-mb-30">
+              <!-- Input Group -->
+              <div class="input-group-btn">
+                <select class="js-custom-select u-select-v1 w-100 g-brd-gray-light-v3 g-bg-white g-color-main g-color-primary--hover g-py-12" required
+                        data-placeholder="Beds"
+                        data-open-icon="fa fa-angle-down"
+                        data-close-icon="fa fa-angle-up">
+                  <option></option>
+                  <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="1">1</option>
+                  <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="2">2</option>
+                  <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="3">3</option>
+                  <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="4">4</option>
+                  <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="5">5</option>
+                  <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="6">6</option>
+                  <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="7">7</option>
+                  <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="8">8</option>
+                  <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="9">9</option>
+                  <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="10">10</option>
+                  <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="ANY">Any</option>
+                </select>
+              </div>
+              <!-- End Input Group -->
+            </div>
+
+            <div class="col-6 col-lg-3 g-mb-30">
+              <!-- Input Group -->
+              <div class="input-group-btn">
+                <select class="js-custom-select u-select-v1 w-100 g-brd-gray-light-v3 g-bg-white g-color-main g-color-primary--hover g-py-12" required
+                        data-placeholder="Baths"
+                        data-open-icon="fa fa-angle-down"
+                        data-close-icon="fa fa-angle-up">
+                  <option></option>
+                  <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="1">1</option>
+                  <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="2">2</option>
+                  <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="3">3</option>
+                  <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="4">4</option>
+                  <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="5">5</option>
+                  <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="6">6</option>
+                  <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="7">7</option>
+                  <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="8">8</option>
+                  <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="9">9</option>
+                  <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="10">10</option>
+                  <option class="g-brd-none g-color-main g-color-white--hover g-color-white--active g-bg-primary--hover g-bg-primary--active" value="ANY2">Any</option>
+                </select>
+              </div>
+              <!-- End Input Group -->
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-6 col-lg-3 g-mb-30">
+              <input class="form-control rounded-0 g-brd-gray-light-v3 g-px-20 g-py-15" type="text" placeholder="Min Area (sqft)">
+            </div>
+
+            <div class="col-6 col-lg-3 g-mb-30">
+              <input class="form-control rounded-0 g-brd-gray-light-v3 g-px-20 g-py-15" type="text" placeholder="Max Area (sqft)">
+            </div>
+
+            <div class="col-sm-6 col-lg-2 g-mb-30">
+              <!-- Radio Group -->
+              <div class="btn-group justified-content">
+                <label class="u-check">
+                  <input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" name="radGroupBtn1_1" type="radio" checked="">
+                  <span class="btn btn-md btn-block u-btn-outline-white g-brd-gray-light-v3 g-brd-primary--checked g-color-main g-color-primary--checked g-bg-white g-font-size-default rounded-0 g-py-13">Buy</span>
+                </label>
+                <label class="u-check">
+                  <input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" name="radGroupBtn1_1" type="radio">
+                  <span class="btn btn-md btn-block u-btn-outline-white g-brd-gray-light-v3 g-brd-primary--checked g-color-main g-color-primary--checked g-bg-white g-font-size-default rounded-0 g-py-13">Rent</span>
+                </label>
+              </div>
+              <!-- End Radio Group -->
+            </div>
+
+            <div class="col-sm-6 col-lg-4 g-mb-30">
+              <h2 class="h6 g-font-weight-600 mb-4">Price Range $(<span id="rangeSliderAmount3">0</span>)</h2>
+              <div id="rangeSlider1" class="u-slider-v1-3"
+                   data-result-container="rangeSliderAmount3"
+                   data-range="true"
+                   data-default="30, 3500000"
+                   data-min="0"
+                   data-max="3500000"></div>
+            </div>
+          </div>
+
+          <!-- Accordion -->
+          <div id="accordion-12-1" role="tablist" aria-multiselectable="true">
+            <!-- Card -->
+            <div class="row align-items-center">
+              <div class="col-6">
+                <button class="btn u-btn-primary g-color-white g-bg-primary-dark-v1--hover g-font-weight-600 rounded-0 g-px-35 g-py-12" type="submit">
+                  Search
+                </button>
+              </div>
+
+              <div class="col-6">
+                <div id="accordion-12-1-heading-01" class="float-right u-accordion__header g-pa-0" role="tab">
+                  <span class="d-block g-font-weight-600 g-font-size-15 mb-0">
+                    <a class="d-block g-color-text g-color-primary--hover g-text-underline--none--hover" href="#accordion-12-1-body-01" data-toggle="collapse" data-parent="#accordion-12-1" aria-expanded="false" aria-controls="accordion-12-1-body-01">
+                      Other Features
+                      <span class="u-accordion__control-icon ml-2">
+                        <i class="fa fa-caret-up">
+                        </i>
+                        <i class="fa fa-caret-down">
+                        </i>
+                      </span>
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div id="accordion-12-1-body-01" class="collapse" role="tabpanel" aria-labelledby="accordion-12-1-heading-01">
+              <div class="u-accordion__body g-pt-30 g-pa-0">
+                <div class="row">
+                  <div class="col-sm-4 col-md-3 col-lg-2">
+                    <!-- Features List -->
+                    <ul class="list-unstyled mb-0">
+                      <li class="my-2">
+                        <label class="form-check-inline u-check d-block u-link-v5 g-color-gray-dark-v4 g-color-primary--hover g-font-weight-500 g-pl-30">
+                          <input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" type="checkbox">
+                          <span class="d-block u-check-icon-checkbox-v4 g-absolute-centered--y g-left-0">
+                            <i class="fa"></i>
+                          </span>
+                          Barbecue
+                        </label>
+                      </li>
+                      <li class="my-2">
+                        <label class="form-check-inline u-check d-block u-link-v5 g-color-gray-dark-v4 g-color-primary--hover g-font-weight-500 g-pl-30">
+                          <input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" type="checkbox">
+                          <span class="d-block u-check-icon-checkbox-v4 g-absolute-centered--y g-left-0">
+                            <i class="fa" data-check-icon="&#xf00c"></i>
+                          </span>
+                          Outdoor Shower
+                        </label>
+                      </li>
+                      <li class="my-2">
+                        <label class="form-check-inline u-check d-block u-link-v5 g-color-gray-dark-v4 g-color-primary--hover g-font-weight-500 g-pl-30">
+                          <input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" type="checkbox">
+                          <span class="d-block u-check-icon-checkbox-v4 g-absolute-centered--y g-left-0">
+                            <i class="fa" data-check-icon="&#xf00c"></i>
+                          </span>
+                          Washer
+                        </label>
+                      </li>
+                    </ul>
+                    <!-- End Features List -->
+                  </div>
+
+                  <div class="col-sm-4 col-md-3 col-lg-2">
+                    <!-- Features List -->
+                    <ul class="list-unstyled mb-0">
+                      <li class="my-2">
+                        <label class="form-check-inline u-check d-block u-link-v5 g-color-gray-dark-v4 g-color-primary--hover g-font-weight-500 g-pl-30">
+                          <input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" type="checkbox">
+                          <span class="d-block u-check-icon-checkbox-v4 g-absolute-centered--y g-left-0">
+                            <i class="fa" data-check-icon="&#xf00c"></i>
+                          </span>
+                          Barbecue
+                        </label>
+                      </li>
+                      <li class="my-2">
+                        <label class="form-check-inline u-check d-block u-link-v5 g-color-gray-dark-v4 g-color-primary--hover g-font-weight-500 g-pl-30">
+                          <input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" type="checkbox">
+                          <span class="d-block u-check-icon-checkbox-v4 g-absolute-centered--y g-left-0">
+                            <i class="fa" data-check-icon="&#xf00c"></i>
+                          </span>
+                          Outdoor Shower
+                        </label>
+                      </li>
+                      <li class="my-2">
+                        <label class="form-check-inline u-check d-block u-link-v5 g-color-gray-dark-v4 g-color-primary--hover g-font-weight-500 g-pl-30">
+                          <input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" type="checkbox">
+                          <span class="d-block u-check-icon-checkbox-v4 g-absolute-centered--y g-left-0">
+                            <i class="fa" data-check-icon="&#xf00c"></i>
+                          </span>
+                          Wi-Fi
+                        </label>
+                      </li>
+                    </ul>
+                    <!-- End Features List -->
+                  </div>
+
+                  <div class="col-sm-4 col-md-3 col-lg-2">
+                    <!-- Features List -->
+                    <ul class="list-unstyled mb-0">
+                      <li class="my-2">
+                        <label class="form-check-inline u-check d-block u-link-v5 g-color-gray-dark-v4 g-color-primary--hover g-font-weight-500 g-pl-30">
+                          <input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" type="checkbox">
+                          <span class="d-block u-check-icon-checkbox-v4 g-absolute-centered--y g-left-0">
+                            <i class="fa" data-check-icon="&#xf00c"></i>
+                          </span>
+                          Dryer
+                        </label>
+                      </li>
+                      <li class="my-2">
+                        <label class="form-check-inline u-check d-block u-link-v5 g-color-gray-dark-v4 g-color-primary--hover g-font-weight-500 g-pl-30">
+                          <input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" type="checkbox">
+                          <span class="d-block u-check-icon-checkbox-v4 g-absolute-centered--y g-left-0">
+                            <i class="fa" data-check-icon="&#xf00c"></i>
+                          </span>
+                          Refrigerator
+                        </label>
+                      </li>
+                      <li class="my-2">
+                        <label class="form-check-inline u-check d-block u-link-v5 g-color-gray-dark-v4 g-color-primary--hover g-font-weight-500 g-pl-30">
+                          <input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" type="checkbox">
+                          <span class="d-block u-check-icon-checkbox-v4 g-absolute-centered--y g-left-0">
+                            <i class="fa" data-check-icon="&#xf00c"></i>
+                          </span>
+                          Wi-Fi
+                        </label>
+                      </li>
+                    </ul>
+                    <!-- End Features List -->
+                  </div>
+
+                  <div class="col-sm-4 col-md-3 col-lg-2">
+                    <!-- Features List -->
+                    <ul class="list-unstyled mb-0">
+                      <li class="my-2">
+                        <label class="form-check-inline u-check d-block u-link-v5 g-color-gray-dark-v4 g-color-primary--hover g-font-weight-500 g-pl-30">
+                          <input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" type="checkbox">
+                          <span class="d-block u-check-icon-checkbox-v4 g-absolute-centered--y g-left-0">
+                            <i class="fa" data-check-icon="&#xf00c"></i>
+                          </span>
+                          Gym
+                        </label>
+                      </li>
+                      <li class="my-2">
+                        <label class="form-check-inline u-check d-block u-link-v5 g-color-gray-dark-v4 g-color-primary--hover g-font-weight-500 g-pl-30">
+                          <input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" type="checkbox">
+                          <span class="d-block u-check-icon-checkbox-v4 g-absolute-centered--y g-left-0">
+                            <i class="fa" data-check-icon="&#xf00c"></i>
+                          </span>
+                          Sauna
+                        </label>
+                      </li>
+                      <li class="my-2">
+                        <label class="form-check-inline u-check d-block u-link-v5 g-color-gray-dark-v4 g-color-primary--hover g-font-weight-500 g-pl-30">
+                          <input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" type="checkbox">
+                          <span class="d-block u-check-icon-checkbox-v4 g-absolute-centered--y g-left-0">
+                            <i class="fa" data-check-icon="&#xf00c"></i>
+                          </span>
+                          Garden
+                        </label>
+                      </li>
+                    </ul>
+                    <!-- End Features List -->
+                  </div>
+
+                  <div class="col-sm-4 col-md-3 col-lg-2">
+                    <!-- Features List -->
+                    <ul class="list-unstyled mb-0">
+                      <li class="my-2">
+                        <label class="form-check-inline u-check d-block u-link-v5 g-color-gray-dark-v4 g-color-primary--hover g-font-weight-500 g-pl-30">
+                          <input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" type="checkbox">
+                          <span class="d-block u-check-icon-checkbox-v4 g-absolute-centered--y g-left-0">
+                            <i class="fa" data-check-icon="&#xf00c"></i>
+                          </span>
+                          Laundry
+                        </label>
+                      </li>
+                      <li class="my-2">
+                        <label class="form-check-inline u-check d-block u-link-v5 g-color-gray-dark-v4 g-color-primary--hover g-font-weight-500 g-pl-30">
+                          <input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" type="checkbox">
+                          <span class="d-block u-check-icon-checkbox-v4 g-absolute-centered--y g-left-0">
+                            <i class="fa" data-check-icon="&#xf00c"></i>
+                          </span>
+                          Swimming Pool
+                        </label>
+                      </li>
+                      <li class="my-2">
+                        <label class="form-check-inline u-check d-block u-link-v5 g-color-gray-dark-v4 g-color-primary--hover g-font-weight-500 g-pl-30">
+                          <input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" type="checkbox">
+                          <span class="d-block u-check-icon-checkbox-v4 g-absolute-centered--y g-left-0">
+                            <i class="fa" data-check-icon="&#xf00c"></i>
+                          </span>
+                          Garage
+                        </label>
+                      </li>
+                    </ul>
+                    <!-- End Features List -->
+                  </div>
+
+                  <div class="col-sm-4 col-md-3 col-lg-2">
+                    <!-- Features List -->
+                    <ul class="list-unstyled mb-0">
+                      <li class="my-2">
+                        <label class="form-check-inline u-check d-block u-link-v5 g-color-gray-dark-v4 g-color-primary--hover g-font-weight-500 g-pl-30">
+                          <input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" type="checkbox">
+                          <span class="d-block u-check-icon-checkbox-v4 g-absolute-centered--y g-left-0">
+                            <i class="fa" data-check-icon="&#xf00c"></i>
+                          </span>
+                          Lawn
+                        </label>
+                      </li>
+                      <li class="my-2">
+                        <label class="form-check-inline u-check d-block u-link-v5 g-color-gray-dark-v4 g-color-primary--hover g-font-weight-500 g-pl-30">
+                          <input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" type="checkbox">
+                          <span class="d-block u-check-icon-checkbox-v4 g-absolute-centered--y g-left-0">
+                            <i class="fa" data-check-icon="&#xf00c"></i>
+                          </span>
+                          TV Cable
+                        </label>
+                      </li>
+                      <li class="my-2">
+                        <label class="form-check-inline u-check d-block u-link-v5 g-color-gray-dark-v4 g-color-primary--hover g-font-weight-500 g-pl-30">
+                          <input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" type="checkbox">
+                          <span class="d-block u-check-icon-checkbox-v4 g-absolute-centered--y g-left-0">
+                            <i class="fa" data-check-icon="&#xf00c"></i>
+                          </span>
+                          Computer
+                        </label>
+                      </li>
+                    </ul>
+                    <!-- End Features List -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Card -->
+          </div>
+          <!-- End Accordion -->
+        </form>
+        <!-- End Input Group -->
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Breadcrumbs & Search -->
